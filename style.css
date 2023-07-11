@@ -56,7 +56,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0px 20px;
   padding-top: 30px;
 }
 .banner-text {
@@ -73,7 +73,7 @@ header {
   width: 40%;
 }
 .banner-pic img {
-  width: 80%;
+  width: 100%;
 }
 
 /* featured-section */
@@ -247,4 +247,13 @@ button {
   padding: 15px;
   border-radius: 5px;
   margin-right: 10px;
+}
+/* footer */
+footer {
+  background-color: #111010;
+  padding: 60px 0;
+}
+.footer-content,
+.footer-content p {
+  color: white;
 }

@@ -76,3 +76,40 @@
     width: 80%;
   }
   
+  /* featured-section */
+.featured-flowers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .item {
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    width: 360px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 60px 0;
+  }
+  .title {
+    width: 50%;
+    margin: 20px auto 40px;
+  }
+  .title,
+  .featured-flowers h4 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .item-1 {
+    background-color: #f1dde7;
+  }
+  .item-2 {
+    background-color: #d9eff0;
+  }
+  .item-3 {
+    background-color: #e3ebdb;
+  }
+  .item img {
+    width: 100%;
+  }
